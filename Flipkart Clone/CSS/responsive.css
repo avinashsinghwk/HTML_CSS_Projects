@@ -1,0 +1,40 @@
+@media screen and (max-width:1000px){
+    header{
+        height: 102px;
+    }
+nav{
+    display:flex;
+    flex-direction: column;
+    padding: 6px 0;
+}
+nav ul{
+    padding: 8px 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.searchPhoto img{
+display:none;
+}
+#text{
+    padding: 0 11px 0 12px;
+}
+.slider img{
+    height: 155px;
+    width: 90vw;
+}
+h2{
+    text-align: center;
+}
+.img-width-height{
+    width: 140px;
+    height: 140px;
+}
+.card{
+    overflow:scroll;
+}
+.card img:hover{
+    width: 142px;
+    height: 142px;
+}
+}

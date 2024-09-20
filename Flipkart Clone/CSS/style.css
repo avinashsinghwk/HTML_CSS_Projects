@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500&family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500&family=Kanit:wght@500&family=Oswald:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height: 11vh;
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    height: 60px;
+    background-color: rgb(76, 6, 240);
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 25px;
+    padding: 0 25px;
+}
+nav ul{
+     height: 60px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: yellow;
+    font-weight: bolder ;
+}
+#text{
+    width: 25vw;
+    height: 25px;
+    border-radius: 7px;
+    margin: 0 10px 0 40px;
+    padding: 0 22px 0 12px;
+}
+#text:hover{
+    width: 25.3vw;
+    height: 27px;
+    border: 1px solid rgb(39, 21, 21);
+}
+.searchPhoto{
+    height: 20px;
+    width: 20px;
+}
+.searchPhoto img{
+         height: 19px;
+         width: 19px;
+         position: absolute;
+         left: 780px;
+         top: 22px;
+}
+.search button{
+    font-weight: bold;
+}
+.search button:hover{
+    background-color: red;
+}
+.container{
+    min-height: calc(100vh - 60px - 11vh);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 0;
+    overflow: hidden;
+}
+.slider img{
+    height: 251px;
+    width: 80vw;
+}
+h2{ 
+    margin: 9px 0;
+    width: 496px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.card{
+    width:90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 0.5px solid black;
+}
+.card img:hover{
+    width: 171px;
+    height: 161px;
+    cursor: pointer;
+    border: 0.5px dotted green;
+}
+.card-item1 p{
+    width: 170px;
+    text-align: center;
+}
+.card-item2 p{
+    width: 170px;
+    text-align: center;
+}
+.card-item3 p{
+    width: 170px;
+    text-align: center;
+}
+.card-item4 p{
+    width: 170px;
+    text-align: center;
+}
+.card-item5 p{
+    width: 170px;
+    text-align: center;
+}

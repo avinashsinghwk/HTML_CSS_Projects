@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDhaba | Home</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #af3333;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo a {
+        display: flex;
+    }
+
+    .logo a :nth-child(1) {
+        background: white;
+        color: red;
+        font-size: 22px;
+        margin-right: 4px;
+        font-weight: bold;
+        padding: 0 3px;
+    }
+
+    .logo a :nth-child(2) {
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .menu {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .menu ul {
+        display: flex;
+    }
+
+    nav .menu ul li {
+        list-style: none;
+        margin: 0 15px;
+    }
+
+    nav .menu ul li a {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 1px 15px;
+    }
+
+    nav .menu ul li a:hover {
+        background: white;
+        color: red;
+        border-radius: 10px;
+    }
+    .container{
+        margin: 0 15%;
+        background: rgb(255 244 244);
+        display: flex;
+        flex-direction: column;
+    }
+    .food a{
+        background: #eddbdb;
+        height: 330px;
+        margin: 20px 40px;
+        padding: 0 40px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text {
+        color: rgb(152, 67, 67);
+    }
+    .text ul li {
+        list-style-position: inside;
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .food_heading {
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .photo img {
+        width: 230px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    footer {
+        height: 180px;
+        background-color: #af3333;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    footer ul li a{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    footer > p {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 7px;
+    }
+    address{
+        font-size: 17px;
+        margin-top: 3px;
+    }
+    @media only screen and (max-width: 975px){
+        .container{
+            margin: 0 10%;
+        }
+        .food a{
+            margin: 20px 20px;
+            height: 250px;
+        }
+        .photo img{
+            width: 150px;
+            height: 180px;
+        }
+    }
+    @media only screen and (max-width: 708px){
+        nav{
+            height: 80px;
+            flex-direction: column;
+        }
+        nav .logo{
+            margin-top: 10px;
+        }
+        .menu{
+            margin-bottom: 10px;
+        }
+        .food a{
+            flex-direction: column;
+            height: 350px;
+            padding: 20px 10px;
+        }
+        .food_heading{
+            margin-bottom: 15px;
+        }
+    }
+    @media only screen and (max-width: 445px){
+        nav .menu ul li{
+            margin: 0 5px;
+        }
+        nav .menu ul li a{
+            padding: 0 8px;
+        }
+        .container{
+            margin: 0 4%;
+        }
+        .food a{
+            height: 390px;
+        }
+        .text ul li{
+            list-style-position: unset;
+        }
+        footer > p{
+            font-size: 16px;
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="love.html" target="_blank">
+                <p>My</p>
+                <p>Dhaba</p>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="food">
+                <a href="love.html">
+                <div class="text">
+                    <p class="food_heading">Burger</p>
+                    <ul>
+                        <li>Get a slice of piza with it</li>
+                        <li>Buy 1 get 1 free</li>
+                        <li>Delivery within 30 min.</li>
+                        <li>Made by the best chef in the country</li>
+                    </ul>
+                </div>
+                <div class="photo">
+                    <img src="Food Delivery/img/food1.jpg" alt="food1">
+                </div>
+            </a>
+            </div>
+            <div class="food">
+                <a href="love.html">
+                <div class="text">
+                    <p class="food_heading">Pizza</p>
+                    <ul>
+                        <li>Get a free coupon</li>
+                        <li>Buy 1 get 1 free</li>
+                        <li>Delivery within 30 min.</li>
+                        <li>Made by the best chef in the country</li>
+                    </ul>
+                </div>
+                <div class="photo">
+                    <img src="Food Delivery/img/food2.png" alt="food2">
+                </div>
+            </a>
+            </div>
+            <div class="food">
+                <a href="love.html">
+                <div class="text">
+                    <p class="food_heading">Burger</p>
+                    <ul>
+                        <li>Get a slice of piza with it</li>
+                        <li>Buy 1 get 1 free</li>
+                        <li>Delivery within 30 min.</li>
+                        <li>Made by the best chef in the country</li>
+                    </ul>
+                </div>
+                <div class="photo">
+                    <img src="Food Delivery/img/food1.jpg" alt="food1">
+                </div>
+            </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="tel:9122643372">Call Us</a></li>
+            <li><a href="mailto:abhinashsinghwk@gmail.com">Email Us</a></li>
+            <li><a href="#">Give Feedback</a></li>
+        </ul>
+        <address>
+            <p>Address: Block Road, Rafiganj</p>
+        </address>
+        <p>Copyright &copy; 2023 - mydhaba.com</p>
+    </footer>
+</body>
+
+</html>

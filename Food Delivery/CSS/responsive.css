@@ -1,0 +1,38 @@
+@media screen and (max-width:920px){
+       #logo{
+              margin: auto;
+       }
+
+       #navBar{
+              display: flex;
+              flex-direction: column;
+       }
+       #home{
+              height: 350px;
+              padding: 0 30px;
+              margin: 0 20px;
+       }
+       #home h1{
+              font-size: 24px;
+              width: 80vw;
+              text-align: center;
+       }
+       #home p{
+              font-size: 15px;
+              width: 90vw;
+              text-align: center;
+       }
+       #services{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+       }
+       .box{
+              width: 60%;       
+       }
+       #clients{
+              display: flex;
+              flex-wrap: wrap;
+              padding:8px 10px;
+       }
+}

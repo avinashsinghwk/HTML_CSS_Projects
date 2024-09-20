@@ -1,0 +1,17 @@
+.flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 1px 5px;
+    background-color: rgb(112, 6, 240);
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+  }
+.img-width-height{
+    width: 170px;
+    height: 160px;
+}

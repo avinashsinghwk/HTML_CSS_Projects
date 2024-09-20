@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Blog</title>
+</head>
+<style>
+    *{
+        padding: 0; 
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+        padding: 0 40px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+    header a{
+        color: rgb(122, 122, 122);
+        font-size: 1.2rem;
+    }
+    header h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: underline black;
+    }
+    header img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+    }
+    .section{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: calc(40% - 1.5rem);
+        height: 11rem;
+        padding: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .p-head {
+        color: green;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .sectiion1 .p-head, .sectiion3 .p-head, .sectiion5 .p-head{
+        color: blue;
+    }
+    .p-date{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .p-desc{
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 2px;
+        height: 2.5rem;
+    }
+    .section a{
+        margin: 2px 0;
+        color: blue;
+    }
+</style>
+<body>
+    <header>
+        <a href="home.html">Subscribe</a>
+        <h1>Our Blog</h1>
+        <img src="search.png">
+    </header>
+    <main>
+        <div class="sectiion1 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum dolor sit amet Lorem, ipsum dolor. consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+        <div class="sectiion2 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum dolor sit Lorem, ipsum dolor. amet consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+        <div class="sectiion3 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+        <div class="sectiion4 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum dolor sit amet kir consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+        <div class="sectiion5 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum sit amet Lorem ipsum dolor sit amet. consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+        <div class="sectiion6 section">
+            <p class="p-head">Blog</p>
+            <h2>Example Blog</h2>
+            <p class="p-date">Nov 11</p>
+            <p class="p-desc">Lorem ipsum Lorem ipsum dolor sit amet. dolor sit amet consectetur.</p>
+            <a target="_blank" href="page.html">Continue Reading</a>
+        </div>
+    </main>
+</body>
+</html>

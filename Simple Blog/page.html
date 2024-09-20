@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Page</title>
+</head>
+<style>
+    *{
+        padding: 0; 
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        padding: 0 40px;
+        overflow-x: hidden;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    header a{
+        color: rgb(122, 122, 122);
+        font-size: 1.2rem;
+    }
+    header h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 2rem;
+        text-decoration: underline black;
+    }
+    header img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    main{
+        display: grid;
+        grid-template-columns: auto 20%;
+        gap: 10px;
+    }
+    .left{
+        grid-row: 1/3;
+    }
+    main h1{
+        font-size: 1.8rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    main p{
+        font-size: 0.9rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    main a{
+        color: blue;
+    }
+    .date{
+        font-size: 0.7rem;
+    }
+    .title-desc, .title4-desc{
+        margin: 12px 0;
+        border-bottom: 0.01rem solid rgb(155, 152, 152);
+        padding-bottom: 5px;
+    }
+    .title3-desc, .title2-desc{
+        margin: 12px 0;
+    }
+    .title-desc3, .title3-desc2{
+        border: 0.01rem solid rgb(155, 152, 152);
+        padding: 6px 1px;
+        margin-bottom: 15px;
+    }
+    .title3-desc3{
+        margin-bottom: 0.5rem;
+    }
+    .title-desc2{
+        margin-bottom: 12px;
+    }
+    main ol, main ul{
+        margin: 13px 0 13px 80px;
+    }
+    button{
+        cursor: pointer;
+        padding: 5px 6px;
+        width: 7rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        color: blue;
+        border: 3px solid blue;
+        font-weight: 700;
+        background-color: transparent;
+        margin: 3rem 0.7rem;
+    }
+    .btn-2{
+        color: rgb(117, 117, 117);
+        border: 3px solid rgb(117, 117, 117);
+    }
+
+
+    .right{
+        position: sticky;
+        top: 50px;
+        /* right: 20px; */
+    }
+    .about{
+        background-color: rgb(230, 230, 245);
+        padding: 5px 5px 20px 13px;
+    }
+    .about h2{
+        margin-bottom: 0.7rem;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .top, .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 3px;
+    }
+
+</style>
+<body>
+    <header>
+        <a href="home.html">Subscribe</a>
+        <h1>Entrepreneuship</h1>
+        <img src="search.png">
+    </header>
+
+    <main>
+        <div class="left">
+            <h1 class="title">How Entrepreneuship can change the World?</h1>
+            <div class="date">
+                January 25, 2023 by <a href="page.html">Avinash</a>
+            </div>
+            <p class="title-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit molestias sit id, exercitationem placeat unde ex? Obcaecati excepturi dolore iusto, quos dignissimos natus nisi aperiam magni minus nostrum adipisci laboriosam ea dolorem? Harum.</p>
+            <p class="title-desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">Entrepreneuship</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga blanditiis expedita quo iure, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corporis reiciendis voluptas. Et architecto ipsum non reprehenderit blanditiis qui quos officiis id, reiciendis quo aliquid rerum quasi itaque fugiat dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. quas est aut inventore sequi eius officiis quia sunt. Lorem ipsum dolor sit.</p>
+            <p class="title-desc3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veniam numquam,Lorem ipsum dolor sit amet consectetur. necessitatibus officiis a delectus distinctio obcaecati nam. Magni? Lorem, ipsum.</p>
+            <p class="tilte-desc4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laboriosam quos sequi delectus dolorem commodi rem consectetur quia incidunt. Quam vero eum tempora?</p>
+            <h1 class="title2 title">Entrepreneuship</h1>
+            <p class="title2-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod alias natus laborum error ullam, id esse excepturi, consequuntur adipisci voluptatem explicabo distinctio. Ducimus quos Lorem ipsum dolor sit amet consectetur adipisicing elit. aliquid officiis maiores error similique consequatur, voluptatem nisi facere.</p>
+            <h2 class="title3">Business And It's Effect</h2>
+            <p class="title3-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vitae nihil et.</p>
+            <p class="title3-desc2">Lorem ipsum dolor sit am nihil et.</p>
+            <p class="title3-desc3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae quas magni sint modi nisi ex non necessitatibus sunt, magnam expedita, temporibus sit alias iste repudiandae dolores corrupti. Placeat cupiditate neque obcaecati ipsum quia!</p>
+            <h2 class="title4">Marketing Help In Business</h2>
+            <p class="title4-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quam temporibus architecto veniam! Suscipit cum et a commodi totam, magni odio maiores ducimus dolores praesentium numquam aliquam iusto vel possimus, quia dolor quis tenetur!</p>
+            <ul>
+                <li>Business can help people to develop themselves</li>
+                <li>Marketing can help to grow your business rapidly and easily</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            </ul>
+            <p class="title4-desc2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, eveniet nisi fugiat inventore modi praesentium.</p>
+            <ol>
+                <li>Business can help people to develop themselves</li>
+                <li>Marketing can help to grow your business rapidly and easily</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            </ol>
+            <p class="title4-desc3">Lorem ipsum dolor sit amet consectetur adipisicing elostrum molestiae unde! Inventore necessitatibus accusamus velit excepturi. Atque beatae doloribus odio quae officiis adipisci ipsum omnis neque, ab eius consectetur. Ab nam fuga aspernatur nisi nulla ipsum accusamus maxime distinctio, perspiciatis quaerat.</p>
+            <button>Older Post</button>
+            <button class="btn-2">Forward Post</button>
+        </div>
+
+        <div class="right">
+            <div class="about">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus enim laboriosam similique tempora earum, eos consequuntur beatae autem. Id modi consequuntur similique esse?</p>
+            </div>
+            <div class="top">
+                <h2>Archives</h2>
+                <a href="#">Entrepreneuship</a>
+                <a href="#">Business</a>
+                <a href="#">Help</a>
+                <a href="#">Love ard Care</a>
+                <a href="#">June 2023</a>
+                <a href="#">July 2024</a>
+                <a href="#">Worship God</a>
+                <a href="#">Help</a>
+                <a href="#">Love ard Care</a>
+                <a href="#">June 2021</a>
+                <a href="#">July 2024</a>
+            </div>
+            <div class="bottom">
+                <h2>Elsewhere</h2>
+                <a href="home.html">Home</a>
+                <a href="#">Message</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
